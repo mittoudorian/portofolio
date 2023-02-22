@@ -1,0 +1,340 @@
+/*--- [Balise générale] ---*/
+
+/*--- Le corps ---*/
+body
+{
+    margin:0px; /*--- Marge a 0px ---*/
+    padding:0px; /*--- L'épaule a 0px ---*/
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/*--- Le titre principale ---*/
+h1
+{
+    font-family: 'Roboto', arial, sans-serif; /*--- Changement de police ---*/
+    font-weight: bold; /*--- Police en gras ---*/
+    text-transform: uppercase; /*--- Police en Majuscule ---*/
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+    color:#000;
+}
+
+h2
+{
+    font-family: 'Roboto', arial, sans-serif; /*--- Changement de police ---*/
+    font-weight: bold; /*--- Police en gras ---*/
+    text-transform: uppercase; /*--- Police en Majuscule ---*/
+    margin-top: 250px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    color:#000;
+}
+
+/*--- zone de saisi longue générale---*/
+textarea 
+{
+    resize: none;
+}
+
+/*--- Les liens ---*/
+a
+{
+    text-decoration: none /*--- Supression des soulignements ---*/;
+}
+
+/*--- [Header] ---*/
+
+/*--- Le logo principale ---*/
+#main-logo img
+{
+    margin-left: 200px;
+    width:125px; 
+    float:left; 
+}
+
+/*--- L'en tête ---*/
+header
+{
+    z-index: 1;
+    position:fixed;
+    background-color: #fff;
+    width:1350px;
+    position: relative;
+}
+
+/*--- L'en tête -> menu de navigation ---*/
+header nav
+{
+    float:right; 
+}
+
+/*--- L'en tête -> liste désordonée ---*/
+header ul
+{
+    margin-right: 200px;
+    margin-top:30px;
+    list-style: none; 
+}
+
+/*--- L'en tête -> les différente liste ---*/
+header li
+{
+    display: inline-block; 
+    padding: 5px;
+}
+
+/*--- L'en tête -> menu de navigation -> liste désordonnés -> différentes liste -> les liens ---*/
+header nav ul li a
+{
+    color:#5F5F5F; 
+    border-bottom:solid 1px #fff; 
+    padding: 3px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+/*--- L'en tête -> menu de navigation -> liste désordonnés -> différentes liste -> les liens : lors du survol de la souris---*/
+header nav ul li a:hover
+{
+    transition: 100ms; /*--- Animation de 150 ms du menu nav ---*/
+    color:#E25E24;
+    border-bottom:solid 4px #E25E24;
+}
+
+/*--- Icones connection et panier ---*/
+#logo-nav1 img, #logo-nav2 img
+{
+    width:25px; 
+    float:right; 
+}
+
+/*--- lien des icones connection et panier ---*/
+header nav ul #logo-nav1 a, header nav ul #logo-nav2 a
+{
+    border:none;
+    background-color: #fff;
+}
+
+/*--- séparateur de la section header / a-propos ---*/
+.separateur
+{
+    padding:100px;
+}
+
+/*--- [A Propos] ---*/
+
+/*--- paragraphe de la section ---*/
+.a-propos p
+{
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    color:#000;
+    font-weight:300;
+    font-size:25px;
+}
+
+/*--- lien obligatoire des pages web (mention légale, etc...) ---*/
+.a-propos a
+{
+    font-size:25px;
+    color:#000;
+    font-weight: bold;
+}
+
+/*--- lien obligatoire des pages web (mention légale, etc...) au survol ---*/
+.a-propos a:hover
+{
+    color:#E25E24;
+}
+
+/*--- [Localisation] ---*/
+
+/*--- L'ensemble de la section "localisation" ---*/
+.localisation
+{
+    margin-bottom:800px;
+}
+
+/*--- image de la section "localisation" ---*/
+.localisation img
+{
+    float:right;
+    margin-right: 100px;
+    margin-top:250px;
+    border-radius: 10px;
+}
+
+/*--- titre h2 ---*/
+.localisation h2
+{
+    font-family: 'Roboto', arial, sans-serif; /*--- Changement de police ---*/
+    font-weight: bold; /*--- Police en gras ---*/
+    text-transform: uppercase; /*--- Police en Majuscule ---*/
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+    color:#000;
+    width:600px;
+    float: left;
+}
+
+/*--- bouton localisation ---*/
+.localisation a
+{
+    margin-left:350px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E25E24;
+    color:#fff;
+    float: left;
+}
+
+/*--- bouton localisation au survol ---*/
+.localisation a:hover
+{
+    background-color: #c25324;
+    color:#fff;
+}
+
+/*--- [Contact] ---*/
+
+/*--- L'ensemble de la section "contact" ---*/
+.contact
+{
+    text-align:center;
+    padding-bottom:150px;
+}
+
+/*--- Le titre h2 ---*/
+.contact h2
+{
+    margin-top: 0px;
+    margin-left:540px;
+    margin-bottom:30px;
+    text-align: center;
+    border-bottom:#E25E24 solid 5px;
+    width:280px;
+}
+
+/*--- Le label avant l'imput (IU: Interaction avec l'Utilisateur) ---*/
+.contact label
+{
+    font-size:20px;
+    margin-left: 10px;
+}
+
+/*--- La zone de saisi avec l'utilisateur  ---*/
+.contact input
+{
+    border-radius: 20px;
+    width:220px;
+    height:30px;
+    margin-left: 10px;
+    background-color: #e0e0e0;
+    border:none;
+    color:#5F5F5F;
+}
+
+/*--- La zone de saisi avec l'utilisateur au survol ---*/
+.contact input:hover
+{
+    background-color: rgb(216, 214, 214);
+}
+
+/*--- le texte d'affichage de la zone de saisi avec l'utilisateur ---*/
+.contact input::placeholder
+{
+    text-align:center;
+}
+
+/*--- La zone de saisi longue textarea ---*/
+.contact textarea
+{
+    background-color: #e0e0e0;
+    border:none;
+    border-radius: 20px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align:justify;
+}
+
+/*--- La zone de texte longue textarea au survol ---*/
+.contact textarea:hover
+{
+    border:solid #bbb 1px;
+    background-color: rgb(216, 214, 214);
+}
+
+/*--- bouton submit ---*/
+.contact #submit
+{
+    width:180px;
+    height:40px;
+    border:none;
+    background-color: #E25E24;
+    color:#fff;
+}
+
+/*--- bouton submit au survol ---*/
+.contact #submit:hover
+{
+    background-color: #c25324;
+    color:#fff;
+}
+
+/*--- [Footer] ---*/
+
+/*--- L'ensemble du footer ---*/
+footer
+{
+    width:1350px; 
+    height: 350px; 
+    background-color: #2A2A2E;  
+    margin-top:50px; 
+    text-align: center; 
+}
+
+/*--- Logo du site ---*/
+#main-logo1
+{
+    display: block; 
+    margin: 0px auto;  
+    width:150px; 
+    padding-top:80px 
+}
+
+/*--- Titre du footer ---*/
+footer h3
+{
+    color:#bbb; 
+    text-align:center; 
+    font-size: 16px; 
+}
+
+/*--- lien ---*/
+footer p a 
+{
+    color:#bbb; 
+}
+
+/*--- lien lors du survol ---*/
+footer p a:hover
+{
+    color:#E25E24; 
+}
+
+/*--- paragraphe du footer ---*/
+footer p 
+{
+    text-align:center; 
+    display:inline-block; 
+    margin-left:50px; 
+    margin-top:80px; 
+}

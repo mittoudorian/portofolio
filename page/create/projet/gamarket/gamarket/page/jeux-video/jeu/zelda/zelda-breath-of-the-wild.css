@@ -1,0 +1,24 @@
+#section_principale/*Regroupe toute les div et les span, elle se trouve dans le css particulier au jeu car l'image change en fonction du jeu*/
+{
+    background-image: url(../../image/Zelda_breath_of_the_wild_fond.jfif);
+    background-repeat:no-repeat;
+    background-position:bottom;
+
+}
+#lien_vers_la_meme_page /*Permet de positionner le lien vers "zelda-breath-of-the-wild.html" dans la div #lien_vers_page, elle se trouve dans le css particulier au jeu pour ajuster avec la longeur du titre*/
+{
+    margin-left: 70px;
+    color: rgba(184, 184, 184, 0.945);
+    font-size: 30px;
+    font-weight: bold;
+}
+#titre /*Permet de positionner le titre du jeu, il se trouve dans le css particulier au jeu car cela permet d'ajuster la taille en fonction de la longueur du titre*/
+{
+    font-size: 33px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.541);
+    height: 110px;
+    width: 300px;
+    border-radius: 10px;
+}

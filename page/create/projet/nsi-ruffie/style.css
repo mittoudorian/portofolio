@@ -1,0 +1,341 @@
+/*-----[GENERALE]-----*/
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+/*-----[HEADER]-----*/
+
+header
+{
+    display: grid;
+    min-height: 80px;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+}
+
+.main-logo
+{
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.main-logo a
+{
+    color: #fff;
+    background-color: rgb(0, 38, 255);
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-bar
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.nav-bar ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar ul li
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-bar a
+{
+    background-color: rgb(0, 38, 255);
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.nav-bar a:hover
+{
+    background-color: rgb(0, 31, 204);
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 520px)
+{
+    .main-logo a
+    {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .nav-bar ul li
+    {
+        font-size: 14px;
+    }
+}
+
+.header-border-bottom
+{
+    display: block;
+    padding: 15px;
+    background-color: #ddd;
+}
+
+/*-----[MAIN-PAGE]-----*/
+
+.main-page
+{
+    background-color: #001FCC;
+    color: #fff;
+    min-height: 550px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-text 
+{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.main-text h2
+{
+    font-size: 80px;
+}
+
+.main-text p
+{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.main-button
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.main-button a
+{
+    color: #001FCC;
+    background-color: #fff;
+    border: #fff solid 5px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.main-button a:hover
+{
+    color: #fff;
+    background-color: #001FCC;
+}
+
+@media screen and (max-width: 994px)
+{
+    .main-button
+    {
+        margin-left: 100px;
+        margin-right: 100px;
+    }    
+
+    .main-text 
+    {
+        margin-left: 100px;
+        margin-right: 100px;
+    }   
+
+    .main-text h2
+    {
+        font-size: 65px;
+    }
+
+    .main-text p
+    {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 620px)
+{
+    .main-text h2
+    {
+        font-size: 60px;
+    }
+
+    .main-text p
+    {
+        font-size: 25px;
+    }
+
+    .main-button
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }    
+
+    .main-text 
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }   
+}
+
+/*-----[COUR]-----*/
+
+.cour
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.cour-text
+{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    border-bottom: solid #001FCC 5px;
+    width: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.all-cour
+{
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+
+}
+
+.cour-1, .cour-2, .cour-3, .cour-4, .cour-5, .cour-6, .cour-7, .cour-8, .cour-9, .cour-10, .cour11, .cour-11, .cour-12, .cour-13, .cour-14, .cour-15, .cour-16, .cour-17, .cour-18, .cour-19, .cour-20, .cour-21, .cour-22, .cour-23, .cour-24, .cour-25
+{
+    background-color: #001FCC;
+    min-height: 100px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.all-cour h4
+{
+    font-size: 15px;
+    color: #fff;
+}
+
+.button-cour-1, .button-cour-2, .button-cour-3, .button-cour-4, .button-cour-5, .button-cour-6, .button-cour-7, .button-cour-8, .button-cour-9, .button-cour-10, .button-cour-11, .button-cour-12, .button-cour-13, .button-cour-14, .button-cour-15, .button-cour-16, .button-cour-17, .button-cour-18, .button-cour-19, .button-cour-20, .button-cour-21, .button-cour-22, .button-cour-23, .button-cour-24, .button-cour-25
+{
+    display: flex;
+    justify-content: center;
+}
+
+.button-cour-1 a, .button-cour-2 a, .button-cour-3 a, .button-cour-4 a, .button-cour-5 a, .button-cour-6 a, .button-cour-7 a, .button-cour-8 a, .button-cour-9 a, .button-cour-10 a, .button-cour-11 a, .button-cour-12 a, .button-cour-13 a, .button-cour-14 a, .button-cour-15 a, .button-cour-16 a, .button-cour-17 a, .button-cour-18 a, .button-cour-19 a, .button-cour-20 a,.button-cour-21 a, .button-cour-22 a, .button-cour-23 a, .button-cour-24 a, .button-cour-25 a
+{
+    color: #001FCC;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.title-cour-1, .title-cour-2, .title-cour-3, .title-cour-4, .title-cour-5, .title-cour-6, .title-cour-7, .title-cour-8, .title-cour-9, .title-cour-10, .title-cour-11, .title-cour-12, .title-cour-13, .title-cour-14, .title-cour-15, .title-cour-16, .title-cour-17, .title-cour-18, .title-cour-19, .title-cour-20, .title-cour-21, .title-cour-22, .title-cour-23, .title-cour-24, .title-cour-25
+{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 992px)
+{
+    .all-cour
+    {
+        grid-template-columns: 25% 25% 25% ;
+    
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .all-cour
+    {
+        grid-template-columns: 40% 40%;
+    
+    }
+}
+/*-----[FOOTER]-----*/
+
+footer
+{
+    min-height: 300px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    color:#fff;
+    margin-top: 50px;
+}
+
+.footer-logo
+{
+    color: #fff;
+    background-color: rgb(0, 38, 255);
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-cc p
+{
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-cc img
+{
+margin-top: 15px;
+}
+
+
+.footer-cc 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

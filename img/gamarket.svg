@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2, .cls-3, .cls-6 {
+        font-family: Roboto-Black, Roboto;
+        font-weight: 800;
+      }
+
+      .cls-2, .cls-6 {
+        font-size: 86.01px;
+      }
+
+      .cls-3 {
+        font-size: 36px;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #e25e24;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-7" width="500" height="500"/>
+  <text class="cls-2" transform="translate(172.92 278.49)"><tspan x="0" y="0">Mar</tspan><tspan class="cls-8" x="153.63" y="0">k</tspan><tspan x="199.82" y="0">et</tspan></text>
+  <rect class="cls-1" x="37.58" y="214.96" width="121.85" height="81.32" rx="12" ry="12" transform="translate(25.05 -8.29) rotate(5.52)"/>
+  <text class="cls-6" transform="translate(44.05 279.15) rotate(5.52)"><tspan x="0" y="0">Ga</tspan></text>
+  <text class="cls-3" transform="translate(161.05 367.23)"><tspan x="0" y="0">P</tspan><tspan class="cls-5" x="23.43" y="0">r</tspan><tspan x="36.44" y="0">ojet </tspan><tspan class="cls-4" x="107.3" y="0">W</tspan><tspan x="138.04" y="0">eb</tspan></text>
+</svg>

@@ -1,0 +1,363 @@
+/*---Importation---*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* Police Roboto */
+
+/*---Balise generale---*/
+:root
+{
+    --text: #333;
+    --background: #fff;
+    --btn-background: #eee;
+    --btn-background-blue: dodgerblue;
+}
+
+body
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: var(--background);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+p, h1
+{
+    color: var(--text);
+}
+
+ul, li
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/*---[Header]---*/
+
+header
+{
+    position: fixed;
+    width: 4.2em;
+    height: 100%;
+    background-color: var(--btn-background);
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header svg
+{
+    width: 32px;
+    padding: 6px;
+}
+
+header li
+{
+    margin: 10px 0 10px 0;
+}
+
+header nav a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+    
+}
+
+header nav a:hover
+{
+    background-color: var(--background);
+    color: #333;
+}
+
+header img
+{
+    width: 32px;
+}
+
+header svg:hover
+{
+    fill: var(--background);
+    background-color: var(--btn-background-blue);
+    border-radius: 15px;
+}
+
+header svg
+{
+    fill: var(--text);
+}
+
+#btn-3
+{
+    background-color: var(--background);
+}
+
+.change-theme
+{
+    border-radius: 15px;
+}
+
+.change-theme
+{
+    fill: #fff;
+}
+
+header button
+{
+    background-color: var(--background);
+    border: none;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+header button:hover
+{
+
+    background-color: var(--btn-background-blue);
+    color: #333;
+    border: none;
+}
+
+
+/*---[Main Page]---*/
+.main-page
+{
+    margin-left: 66px;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text
+{
+    padding:30px
+}
+
+.main-text p
+{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.main-text h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.main-image svg
+{
+    width: 300px;
+    height: 300px;
+    fill: var(--text);
+}
+
+@media screen and (max-width: 768px)
+{
+    .main-page
+    {
+        flex-direction: column;
+    }
+
+    .main-image svg
+    {
+        width:200px;
+        height: 200px;
+    }
+}
+
+/*---[Button link page]---*/
+.button-link-page
+{
+    margin-left: 66px;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-link-page img
+{
+    width:200px;
+    height:200px;
+}
+
+.big-btn
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.btn-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 0 15px; 
+    background-color: var(--text);
+    width:250px;
+    height:250px;
+    border-radius: 25px;
+}
+
+.btn-img svg
+{
+    width: 200px;
+    height: 200px;
+    fill:var(--btn-background);
+}
+
+.btn-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 15px 0 15px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, var(--btn-background-blue), #00BFFF);
+    
+}
+
+.btn-text a
+{
+    width: 225px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .button-link-page
+    {
+        flex-direction: column;
+    }
+
+    .btn-text
+    {
+        margin-bottom: 25px;
+    }
+
+    .btn-img
+    {
+      width:200px;
+      height: 200px;  
+    }
+}
+/*---[Creation]---*/
+.image img
+{
+    width: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.creation
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.creation-global
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.soulignage
+{
+    width: 120px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: var(--btn-background-blue);
+    display: flex;
+}
+
+.creation-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    color: var(--text);
+}
+
+
+
+@media screen and (max-width: 1200px)
+{
+    .image img
+    {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    .image img
+    {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .creation
+    {
+        margin-left: 50px;
+    }
+    .creation-global
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+/*---[Footer]---*/
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--btn-background);
+    height: 670px;
+}
+
+.f-img-1 img
+{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 25px;
+}
+
+.f-cc
+{
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

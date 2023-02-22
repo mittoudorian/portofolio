@@ -1,0 +1,476 @@
+/*--- [Balise générale] ---*/
+
+/*--- Le corps ---*/
+body
+{
+    margin:0px; 
+    padding:0px; 
+    font-family: 'Roboto', Arial, sans-serif; /*--- Ajout de la police Roboto au corps ---*/
+}
+
+/*--- Le titre principale h1 ---*/
+h1
+{
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-top: 250px;
+    margin-left:250px;
+    font-size: 50px;
+    color:#fff;
+}
+
+#nouveautés
+{
+    margin-left:350px;
+}
+/*--- Les liens ---*/
+a
+{
+    text-decoration: none /*--- Supression des soulignements ---*/;
+}
+
+/*--- [Header] ---*/
+
+/*--- Le logo principale ---*/
+#main-logo img
+{
+    margin-left: 200px; 
+    width:125px; 
+    float:left; 
+    padding: 0px; 
+}
+
+/*--- L'en tête ---*/
+header
+{
+    z-index: 1;
+    position:fixed;
+    background-color: #fff;
+    padding: 1px;
+    width:1350px;
+}
+
+/*--- L'en tête -> menu de navigation ---*/
+header nav
+{
+    float:right; 
+}
+
+/*--- L'en tête -> liste désordonée ---*/
+header ul
+{
+    margin-right: 200px;
+    margin-top:30px;
+    list-style: none; 
+}
+
+/*--- L'en tête -> les différente liste ---*/
+header li
+{
+    display: inline-block; 
+    padding: 5px; 
+}
+
+/*--- L'en tête -> menu de navigation -> liste désordonnés -> différentes liste -> les liens ---*/
+header nav ul li a
+{
+    color:#5F5F5F; 
+    border-bottom:solid 1px #fff; 
+    padding: 3px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-family: 'Roboto', arial, sans-serif; 
+}
+
+/*--- L'en tête -> menu de navigation -> liste désordonnés -> différentes liste -> les liens : lors du survol de la souris---*/
+header nav ul li a:hover
+{
+    transition: 100ms;
+    color:#5F5F5F;
+    border-bottom:solid 4px #E25E24;
+}
+
+/*--- Icones connection et panier ---*/
+#logo-nav1 img, #logo-nav2 img
+{
+    width:25px; 
+    float:right;
+}
+
+/*--- lien des icones connection et panier ---*/
+header nav ul #logo-nav1 a, header nav ul #logo-nav2 a
+{
+    border:none;
+    background-color: #fff; 
+}
+
+/*--- [main-page] ---*/
+.separateur-header
+{
+    margin-bottom: 50px;
+    padding: 10px;
+    float:top;
+    display: block;
+}
+h1
+{
+    font-size: xx-large;
+    color: #E25E24;
+}
+/*---Redimensions et emplacements des images des jeux---*/
+#article1_image 
+{
+    position: absolute;
+    left: 245px;
+    top: 150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#article2_image
+{
+    position: absolute;
+    left: 580px;
+    top: 150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#article3_image
+{
+    position: absolute;
+    left: 940px;
+    top: 150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#article4_image
+{
+    position: absolute;
+    left: 240px;
+    top: 650px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#article5_image
+{
+    position: absolute;
+    left: 590px;
+    top: 650px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#article6_image
+{
+    position: absolute;
+    left: 940px;
+    top: 650px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#article7_image
+{
+    position: absolute;
+    left: 230px;
+    top: 1150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#article8_image
+{
+    position: absolute;
+    left: 590px;
+    top: 1150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#article9_image
+{
+    position: absolute;
+    left: 940px;
+    top: 1150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+/*---Redimensions et emplacements des titres des jeux--*/
+#titre_et_lien1
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 200px;
+    top:470px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+#titre_et_lien2
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 550px;
+    top: 470px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+#titre_et_lien3
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 900px;
+    top: 470px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+#titre_et_lien4
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 200px;
+    top: 970px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+#titre_et_lien5
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 550px;
+    top: 970px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+#titre_et_lien6
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 900px;
+    top: 970px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    text-orientation: upright;
+}
+#titre_et_lien7
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 200px;
+    top: 1470px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+#titre_et_lien8
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 550px;
+    top: 1470px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+#titre_et_lien9
+{
+    background-color: rgba(74, 80, 74, 0.822);
+    position: absolute;
+    left: 900px;
+    top: 1470px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+p
+{
+    font-size: large;
+    color: #fff;
+}
+/*---Redimension et emplacement du lien renvoyant vers la page du jeu---*/
+#lien
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+#lien1
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+#lien2
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+#lien3
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+#lien4
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+#lien5
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+#lien6
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+#lien7
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+#lien8
+{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 70px;
+}
+/*---Emplacement des Catégories---*/
+#nouveautés
+{
+    position: absolute;
+    left: 220px;
+    top: -150px;
+}
+#promotion
+{
+    position: absolute;
+    left: 220px;
+    top: 340px;
+}
+#jeux_vidéo_en_vente
+{
+    position: absolute;
+    left: 220px;
+    top: 850px;
+}
+/*--- L'ensemble du footer ---*/
+footer
+{
+    position: absolute;
+    top: 1550px;
+    width:1350px; 
+    height: 350px; 
+    background-color: #2A2A2E;  
+    margin-top:50px; 
+    text-align: center; 
+}
+
+/*--- Logo du site ---*/
+#main-logo1
+{
+    display: block; 
+    margin: 0px auto;  
+    width:150px; 
+    padding-top:80px 
+}
+
+/*--- Titre du footer ---*/
+footer h3
+{
+    color:#bbb; 
+    text-align:center; 
+    font-size: 16px; 
+}
+
+/*--- lien ---*/
+footer p a 
+{
+    color:#bbb; 
+}
+
+/*--- lien lors du survol ---*/
+footer p a:hover
+{
+    color:#E25E24; 
+}
+
+/*--- paragraphe du footer ---*/
+footer p 
+{
+    text-align:center; 
+    display:inline-block; 
+    margin-left:50px; 
+    margin-top:80px; 
+    font-size: 16px;
+}

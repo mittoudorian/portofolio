@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        font-size: 36px;
+      }
+
+      .cls-2, .cls-5 {
+        font-family: Roboto-Black, Roboto;
+        font-weight: 800;
+      }
+
+      .cls-6, .cls-5 {
+        fill: #001fcc;
+      }
+
+      .cls-5 {
+        font-size: 68px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-6" x="0" width="500" height="500"/>
+  <text class="cls-2" transform="translate(161.05 367.23)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="23.43" y="0">r</tspan><tspan x="36.44" y="0">ojet </tspan><tspan class="cls-3" x="107.3" y="0">W</tspan><tspan x="138.04" y="0">eb</tspan></text>
+  <rect class="cls-1" x="60" y="203" width="380" height="95" rx="42" ry="42"/>
+  <text class="cls-5" transform="translate(92.27 274.98)"><tspan x="0" y="0">NSI Ruffié</tspan></text>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 77px;
+      }
+
+      .cls-4 {
+        font-size: 72px;
+      }
+
+      .cls-2 {
+        font-family: Roboto-Black, Roboto;
+        font-weight: 800;
+      }
+
+      .cls-5 {
+        fill: #333;
+      }
+
+      .cls-6 {
+        font-size: 78px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-5" width="500" height="500"/>
+  </g>
+  <text class="cls-2" transform="translate(125.71 209.5)"><tspan class="cls-6" x="0" y="0">N</tspan><tspan class="cls-4" x="54.77" y="0">at</tspan><tspan class="cls-6" x="117.7" y="0">o</tspan><tspan class="cls-4" x="161.5" y="0">m</tspan><tspan class="cls-4" x="-11.1" y="92.4" xml:space="preserve">   </tspan><tspan class="cls-3" x="42.69" y="92.4">G</tspan><tspan class="cls-4" x="95.18" y="92.4">ame</tspan></text>
+  <path class="cls-1" d="M408.53,337h-87.51c-6.88,0-12.47,5.58-12.47,12.47v87.51c0,6.88,5.58,12.47,12.47,12.47h87.51c6.88,0,12.47-5.58,12.47-12.47v-87.51c0-6.88-5.58-12.47-12.47-12.47Zm-59.74,72.44c-8.96,0-16.22-7.26-16.22-16.22s7.26-16.21,16.22-16.21,16.21,7.26,16.21,16.21-7.26,16.22-16.21,16.22Zm41.91,1.56c0,1.58-1.28,2.86-2.86,2.86h-.08l-2.36,6.66c-.77,2.18-3.86,2.18-4.63,0l-2.36-6.66h-.08c-1.58,0-2.86-1.28-2.86-2.86v-43.6c0-1.58,1.28-2.86,2.86-2.86h9.5c1.58,0,2.86,1.28,2.86,2.86v43.6Z"/>
+  <rect class="cls-1" x="53.2" y="288.01" width="83.29" height="83.29" rx="22.22" ry="22.22"/>
+  <path class="cls-5" d="M104.39,320.59c6.12,1.56,8.65,21.74,1.51,26.75-2.68,1.88-6.84,1.69-7.45,.33-.74-1.67,4.5-3.63,5.89-8.46,2.1-7.29-6.73-13.63-4.14-17.25,.89-1.24,2.81-1.73,4.18-1.38Z"/>
+  <circle class="cls-5" cx="81.72" cy="310.51" r="8.46"/>
+  <circle class="cls-5" cx="81.72" cy="347.59" r="8.46"/>
+  <path class="cls-5" d="M98.57,328.7c-3.58-2.47-2.43-12.4,2.04-13.98,3.78-1.33,10.24,3.23,9.9,7.86-.36,5.04-8.65,8.39-11.94,6.11Z"/>
+  <rect class="cls-1" x="372.9" y="83" width="96.59" height="96.59" rx="22.22" ry="22.22"/>
+  <circle class="cls-5" cx="421.61" cy="131.09" r="19.64"/>
+  <polygon class="cls-5" points="399.66 91.74 402.69 97.88 409.47 98.87 404.56 103.65 405.72 110.4 399.66 107.21 393.6 110.4 394.75 103.65 389.85 98.87 396.63 97.88 399.66 91.74"/>
+  <rect class="cls-1" x="48.55" y="31" width="93.45" height="93.45" rx="22.22" ry="22.22"/>
+  <circle class="cls-5" cx="95.05" cy="77.95" r="34.78"/>
+</svg>

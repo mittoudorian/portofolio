@@ -1,0 +1,341 @@
+/*--- [Balise générale] ---*/
+
+/*--- Le corps ---*/
+body
+{
+    margin:0px; 
+    padding:0px; 
+    font-family: 'Roboto', Arial, sans-serif; /*--- Ajout de la police Roboto au corps ---*/
+}
+
+/*--- Le titre principale h1 ---*/
+h1
+{
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+    color:#fff;
+}
+
+/*--- Les liens ---*/
+a
+{
+    text-decoration: none /*--- Supression des soulignements ---*/;
+}
+
+/*--- [Header] ---*/
+
+/*--- Le logo principale ---*/
+#main-logo img
+{
+    margin-left: 200px; 
+    width:125px; 
+    float:left; 
+    padding: 0px; 
+}
+
+/*--- L'en tête ---*/
+header
+{
+    z-index: 1;
+    position:fixed;
+    background-color: #fff;
+    padding: 1px;
+    width:1350px;
+}
+
+/*--- L'en tête -> menu de navigation ---*/
+header nav
+{
+    float:right; 
+}
+
+/*--- L'en tête -> liste désordonée ---*/
+header ul
+{
+    margin-right: 200px;
+    margin-top:30px;
+    list-style: none; 
+}
+
+/*--- L'en tête -> les différente liste ---*/
+header li
+{
+    display: inline-block; 
+    padding: 5px; 
+}
+
+/*--- L'en tête -> menu de navigation -> liste désordonnés -> différentes liste -> les liens ---*/
+header nav ul li a
+{
+    color:#5F5F5F; 
+    border-bottom:solid 1px #fff; 
+    padding: 3px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-family: 'Roboto', arial, sans-serif; 
+}
+
+/*--- L'en tête -> menu de navigation -> liste désordonnés -> différentes liste -> les liens : lors du survol de la souris---*/
+header nav ul li a:hover
+{
+    transition: 100ms;
+    color:#5F5F5F;
+    border-bottom:solid 4px #E25E24;
+}
+
+/*--- Icones connection et panier ---*/
+#logo-nav1 img, #logo-nav2 img
+{
+    width:25px; 
+    float:right;
+}
+
+/*--- lien des icones connection et panier ---*/
+header nav ul #logo-nav1 a, header nav ul #logo-nav2 a
+{
+    border:none;
+    background-color: #fff; 
+}
+
+/*--- [main-page] ---*/
+
+/*--- L'ensemble de la section "main-page"  ---*/
+.main-page 
+{
+    background-color: #E25E24;
+    height: 800px;
+    width: 1350px; 
+    font-family: 'Roboto', arial, sans-serif; /*--- Changement de police ---*/ 
+}
+
+/*--- L'image de mario a gauche de l'ecran  ---*/
+.main-page #main-image
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 800px;
+    float: right;
+    width:400px;
+}
+
+/*--- Le paragraphe de la section principale  ---*/
+.main-page p
+{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 100px;
+    margin-right: 775px;
+    font-size: 30px;
+    color:#fff;
+}
+
+/*--- Le bouton "j'en profite" ---*/
+#main-button
+{
+    display: inline-block;
+    margin-top:500px;
+    margin-left: 225px;
+    font-size:20px;
+    background-color: #E25E24;
+    color:#fff;
+    font-weight:bold;
+    width:100px;
+    text-align: center;
+    padding:5px;
+    border-radius:5px;
+    border: solid 2px #fff;
+}
+
+/*--- Le bouton "j'en profite" au survol ---*/
+#main-button:hover
+{
+    background-color: #fff;
+    color: #E25E24;
+    font-weight:bold;
+    padding:5px;
+    border-radius:5px;
+    border: solid 2px #fff;
+}
+
+/*--- [Plateforme] ---*/ 
+
+/*--- Le titre de cet section  ---*/
+#plateforme h2
+{
+    text-align: center;
+    margin-top:100px;
+    margin-left:560px;
+    border-bottom: solid 5px #E25E24;
+    width:200px;
+}
+
+/*---  L'image se met au centre ---*/
+#plateforme img
+{
+    width:50px;
+    padding-left: 225px;
+    display:inline-block;
+    margin-top: 50px;
+}
+
+/*--- [affiche promotion] ---*/
+
+/*--- L'image du jeux vidéo minecraft ---*/
+#minecraft-image
+{
+    float: left;
+    width:600px;
+    margin-right:10px;
+    margin-left:30px;
+}
+
+/*--- Image va à droite  ---*/
+#promo img
+{
+    float: right;
+    width: 300px;
+    text-align: center;
+}
+
+/*--- L'ensemble de la section "affiche-promotion"  ---*/
+#affiche-promotion
+{
+    margin:10px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:50px; /*--- Marge en haut ---*/
+    display: inline-block;
+    
+}
+
+/*--- le titre h2 ---*/
+#affiche-promotion h2
+{
+    text-align: center;
+    margin-top:100px;
+    margin-left:360px;
+    border-bottom: solid 5px #E25E24;
+    width:200px;
+}
+/*--- [Jeux Pop] ---*/
+
+/*--- L'ensemble de la section "jeux-pop"  ---*/
+#jeux-pop 
+{
+    margin-top:100px;
+    margin-bottom: 200px;
+    margin-left:110px;
+    margin-right:150px;
+}
+
+/*--- les titre h2 ---*/
+#jeux-pop h2
+{
+    text-align:center;
+    color:#000;
+    border-bottom: solid #E25E24 5px;
+    width:200px;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 430px
+}
+
+/*--- le block (div) ---*/
+#jeux-pop div
+{
+    display: inline-block;
+    margin-left:112px;
+}
+
+/*--- Modification de l'image ---*/
+#jeux-pop div img
+{
+    width:200px;
+    border-radius: 10px;
+    
+}
+
+/*--- h3 et h4 ---*/
+#jeux-pop div h3, div h4
+{
+    margin-left: 20px;
+    text-align: center;
+    width:170px;
+}
+
+/*--- changement de couleur du h4  ---*/
+#jeux-pop div h4
+{
+    color:#E25E24;
+}
+
+/*--- changement de couleur du h3  ---*/
+#jeux-pop div h3
+{
+    color:#000;
+}
+
+/*--- Fleche renvoyant à la page "jeux-video" ---*/
+#fleche img
+{
+    width:80px;
+    margin-bottom:160px;
+    margin-left:20px;
+}
+
+/*--- [Footer] ---*/
+
+/*--- L'ensemble du footer ---*/
+footer
+{
+    width:1350px; 
+    height: 350px; 
+    background-color: #2A2A2E;   
+    text-align: center; 
+}
+
+/*--- Logo du site ---*/
+#main-logo1
+{
+    display: block; 
+    margin: 0px auto;  
+    width:150px; 
+    padding-top:80px 
+}
+
+/*--- Titre du footer ---*/
+footer h3
+{
+    color:#bbb; 
+    text-align:center; 
+    font-size: 16px; 
+}
+
+/*--- lien ---*/
+footer p a 
+{
+    color:#bbb; 
+    font-size:16px;
+}
+
+/*--- lien lors du survol ---*/
+footer p a:hover
+{
+    color:#E25E24; 
+}
+
+/*--- paragraphe du footer ---*/
+footer p 
+{
+    text-align:center; 
+    display:inline-block; 
+    margin-left:50px; 
+    margin-top:80px; 
+}

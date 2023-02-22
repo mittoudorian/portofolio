@@ -1,0 +1,92 @@
+#section_principale/*Regroupe toute les div et les span, elle se trouve dans le css particulier au jeu car l'image change en fonction du jeu*/
+{
+    background-image: url(../../image/Dying_light_2_fond.jpg); 
+    background-repeat:no-repeat;
+    background-position:bottom;
+
+}
+#lien_vers_la_meme_page /*Permet de positionner le lien vers "dying-light-2.html" dans la div #lien_vers_page, elle se trouve dans le css particulier au jeu pour ajuster avec la longeur du titre*/
+{
+    margin-left: 250px;
+    color: rgba(184, 184, 184, 0.945);
+    font-size: 40px;
+    font-weight: bold;
+}
+#titre /*Permet de positionner le titre du jeu, il se trouve dans le css particulier au jeu car cela permet d'ajuster la taille en fonction de la longueur du titre*/
+{
+    font-size: 40px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.541);
+    height: 70px;
+    width: 300px;
+    border-radius: 10px; 
+}
+#PS4 /*Boutons relier à une fonction dans le javascirpt dying-light-2.js, il permet de changer l'image du jeu, il se trouve dans le css particulier au jeu pour ajuste en fonction de la plateforme*/  
+{
+    font-size: x-large;
+    position: absolute;
+    left: 550px;
+    top: 940px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+#PS4:hover /*Permet de modifier les caractéristiques du bouton lorsque celui-ci est survolé*/
+{
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+}
+#PS5   /*Boutons relier à une fonction dans le javascirpt dying-light-2.js, il permet de changer l'image du jeu, il se trouve dans le css particulier au jeu pour ajuste en fonction de la plateforme*/  
+{
+    font-size: x-large;
+    position: absolute;
+    left: 670px;
+    top: 940px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+#PS5:hover /*Permet de modifier les caractéristiques du bouton lorsque celui-ci est survolé*/
+{
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+}
+#XBOX  /*Boutons relier à une fonction dans le javascirpt dying-light-2.js, il permet de changer l'image du jeu, il se trouve dans le css particulier au jeu pour ajuste en fonction de la plateforme*/  
+{
+    font-size: x-large;
+    position: absolute;
+    left: 520px;
+    top: 980px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 270px;
+    height: 55px;
+    border: none;
+}
+#XBOX:hover /*Permet de modifier les caractéristiques du bouton lorsque celui-ci est survolé*/
+{
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+}
+#PC  /*Boutons relier à une fonction dans le javascirpt dying-light-2.js, il permet de changer l'image du jeu, il se trouve dans le css particulier au jeu pour ajuste en fonction de la plateforme*/  
+{
+    font-size: x-large;
+    position: absolute;
+    left: 610px;
+    top: 905px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    border: none;
+}
+#PC:hover /*Permet de modifier les caractéristiques du bouton lorsque celui-ci est survolé*/
+{
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+}

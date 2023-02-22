@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="FR">
+
+    <head>
+        <title>GaMarket - Promotion d'hiver</title>
+        <meta charset="UTF-8">
+
+        <!-- liens de connection vers CSS/JS -->
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        
+        <!-- Importation police Roboto  (Google Font) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+
+        <!-- En tête de la page  [header] -->
+        <header>
+
+            <span id="main-logo"><a href="index.html"><img src="image/main-logo.png" alt="GaMarket"></a></span> <!-- Logo --> 
+
+            <!-- Menu navigation -->
+            <nav> 
+                <!-- création de liste désordonnée -->
+                <ul>
+                    <!-- éléments de la liste --> 
+                    <li id="accueil"><a href="index.html">Accueil</a></li>
+                    <li id="jeux-video"><a href="page/jeux-video/jeux-video.html">jeux vidéos</a></li>
+                    <li id="a-propos"><a href="page/a-propos/a-propos.html">A propos</a></li>
+                    <li id="logo-nav1"><a href="#connection"><img src="image/connection.png" alt="connection"></a></li>
+                    <li id="logo-nav2"><a href="#panier"><img src="image/panier.png" alt="panier"></a></li>
+                </ul>
+            </nav>
+        
+        </header>
+
+        <!-- Section principale {main-page] -->
+        <section class="main-page">
+
+            <h1>Le Game Market</h1>
+            <p>Profitez des jeux du moment au meilleur prix, actuellement en soldes.</p>
+
+            <img  id="main-image" src="image/main-image.png" alt="Image principale">  
+            <a href="#jeux-pop" id="main-button">j'en profite</a>
+        </section>
+
+        <!-- Section [Plateforme] -->
+        <section id="plateforme">
+
+            <h2>Plateforme</h2>
+
+            <span id="console-span">
+                <img src="image/playstation.png" alt="playstation">
+
+                <img src="image/xbox.png" alt="xbox">
+
+                <img src="image/switch.png" alt="switch">
+
+                <img src="image/steam.png" alt="steam">
+            </span>
+
+        </section>
+
+        <!-- Section [Affiche promotion] -->
+        <section id="affiche-promotion">
+                <h2>Promotion</h2>
+                <img id="minecraft-image" src="image/minecraft_horse.jpg" alt="Minecraft Horse">
+                <span id="promo">
+                    <img src="image/promo.jpg" alt="Logo promotion">
+                </span>
+        </section>
+
+       <!-- Section [Jeux populaire] -->
+       <section id="jeux-pop">
+            
+        <h2>Jeux populaire</h2>
+
+        <div> <!-- div de jeu -->
+            <a href="page/jeux-video/jeu/dying-light-2/dying-light-2.html">
+                <img src="image/dying-light-2.jpg" alt="Dying Light 2">
+                <h3>Dying Light 2</h3>
+                <h4>54.99€</h4>
+            </a>
+        </div>
+
+        <div> <!-- div de jeu -->
+            <a href="page/jeux-video/jeu/pokemon-arceus/pokemon-arceus.html">
+                <img src="image/pokemon-arceus.jpg" alt="Pokemon Arceus">
+                <h3>Pokemon Arceus</h3>
+                <h4>42.99€ (-30%)</h4>
+            </a>
+        </div>
+
+        <div> <!-- div de jeu -->
+            <a href="page/jeux-video/jeu/minecraft/minecraft.html">
+                <img src="image/minecraft.jpg" alt="Minecraft">
+                <h3>Minecraft</h3>
+                <h4>10€ (-50%)</h4>
+            </a>
+        </div>
+
+        <!-- fleche qui envoie a la rubrique jeux-video -->
+        <a id="fleche" href="page/jeux-video/jeux-video.html"><img src="image/contour-du-bouton-circulaire-fleche-droite.png" alt="Fleche"></a>
+
+    </section>
+
+    <!-- [Footer] --> 
+    <footer>
+        <img id="main-logo1" src="image/main-logo1.png" alt="GaMarket"> <!-- Logo --> 
+        <h3>© GaMarket. Tous droits réservés</h3>
+        <p><a href="#">Mention légale</a></p>
+        <p><a href="#">Politique de collecte de données</a></p>
+        <p><a href="#">Conditions générales de vente</a></p>
+        <p><a href="#">Remboursements</a></p>
+    </footer>
+    
+    </body>
+
+</html>

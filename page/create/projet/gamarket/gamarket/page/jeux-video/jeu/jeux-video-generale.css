@@ -1,0 +1,116 @@
+html, body
+{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+#wrapper
+{
+    margin:10px;
+    margin-left:100px;
+    margin-right:100px;
+}
+ 
+a
+{
+    text-decoration: none;
+}
+.separateur-header
+{
+    margin-bottom: 50px;
+    padding: 10px; 
+    float:top;
+    display: block;
+}
+
+#boite_principale /*Cette boite contient toute les information sur le jeux, ainsi que des images, la div permet d'ajouter un fond*/
+{
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color:rgba(74, 80, 74, 0.822);
+    height: 700px;
+    width: 1000px;
+    border-radius: 10px;
+}
+#lien_vers_page /*Cette div contient des lien vers des autres pages , la div permet de mettre un fond de couleur au texte pour le faire resortir du fond*/
+{
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color:rgba(74, 80, 74, 0.822);
+    height: 50px;
+    width: 1000px;
+    border-radius: 10px;
+}
+#boite_jeux img /*Permet de modifier directement le image de la span*/
+{
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#lien_vers_jeux_video /*Permet de positionner le lien vers "article.html" dans la div #lien_vers_page*/
+{
+    margin-left: 100px;
+    color: rgba(184, 184, 184, 0.945);
+    font-size: 40px; 
+    font-weight: bold;
+}
+#boite_description /*Cette div contient les information du jeux, la div permet d'ajouter un fond de couleur pour faire resortir le texte*/
+{
+    font-size: 40px;
+    position: absolute; 
+    left: 550px;
+    top: 401px;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.541);
+    height: 500px;
+    width: 550px;
+    border-radius: 10px;
+}
+#Description /*Permet de modifier la police du texte*/
+{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5px;
+}
+p /*Modifie toutes les balises p car on a besoin de la même police partout*/
+{
+    font-size: x-large;
+    text-align: left;
+    margin-left: 5px;
+}
+#clignote /*Permet de faire clignoter le texte grace à une animation*/
+{
+    /*Definition de la durée d'un cycle de l'animation*/
+    animation-duration: .5s;
+    /*Definition de l'animation à faire*/
+    animation-name: clignoter;
+    /*Definition du nombre de fois ou l'animation doit être faite*/
+    animation-iteration-count: infinite;/*infinite permet de repéter l'animation à l'infini*/
+    transition: none; /*On applique aucune transition*/
+}
+@keyframes clignoter { /*Permet de définir l'animation clignoter*/
+	10%   { color:#011afe; } /*Modifie la couleur du texte à 10% de l'animation*/
+	100% { color:#05b3df; } /*Modifie la couleur du texte à 100% de l'animation*/
+}
+#barre /*Permet de barré le texte*/
+{
+    text-decoration: line-through;
+}
+#Ajouter_au_panier /*Boutton appelant une fonction en javascirpt directement relier dans le html*/
+{
+    font-size: x-large;
+    position: absolute;
+    left: 800px;
+    top: 950px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+#Ajouter_au_panier:hover /*Permet de modifier le boutton et la souris au survol pour indiquer le survol*/ 
+{
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="FR">
+    <head>
+              <!-- liens de connection vers CSS/JS -->
+              <link rel="stylesheet" href="a-propos.css">
+              <script src="script.js"></script>
+
+              <title>GaMarket - Promotion d'hiver</title>
+                <meta charset="UTF-8">
+              
+              <!-- Importation police Roboto  (Google Font) -->
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <!-- En tête de la page -->
+        <header>
+
+            <span id="main-logo"><a href="../../index.html"><img src="image/main-logo.png" alt="GaMarket"></a></span> <!-- Logo --> 
+
+            <!-- Menu navigation -->
+            <nav> 
+                <!-- création de liste désordonnée -->
+                <ul>
+                    <!-- éléments de la liste --> 
+                    <li id="accueil"><a href="../../index.html">Accueil</a></li>
+                    <li id="jeux-video"><a href="../jeux-video/jeux-video.html">jeux vidéos</a></li>
+                    <li id="a-propos"><a href="a-propos.html">A propos</a></li>
+                    <li id="logo-nav1"><a href="#connection"><img src="image/connection.png" alt="connection"></a></li>
+                    <li id="logo-nav2"><a href="#panier"><img src="image/panier.png" alt="panier"></a></li>
+                </ul>
+            </nav>
+
+            <!-- séparateur du header a la section "a-propos" --> 
+            <div class="separateur"></div>
+
+        </header>
+
+        <!-- [section a propos] --> 
+        <section class="a-propos">
+            <h1>A propos</h1>
+            <p>Il s'agit de la rubrique "A Propos", vous pouvez lire nos <a href="#">mentions legales</a>, 
+                notre <a href="#">politique de collecte de données</a>, nos <a href="#">conditions générales de ventes</a> et les <a href="#">conditions de remboursements</a></p>
+        </section>
+
+        <!-- [section localisation] --> 
+        <section class="localisation">
+            <h2>Vous souhaitez nous rencontrer</h2>
+            <img src="image/carte.png" alt="carte">
+            <a id="button1" href="https://www.google.fr/maps/place/Lyc%C3%A9e+Polyvalent+Jacques+Ruffi%C3%A9/@43.0512517,2.2179719,17z/data=!4m5!3m4!1s0x12afc933e93a8f8f:0x8092493a1f9c2e6c!8m2!3d43.0505614!4d2.2196395">En savoir plus</a>
+        </section>
+
+        <!-- [section contact] --> 
+        <section class="contact">
+
+            <!-- Formulaire --> 
+            <form>
+                <h2>Contactez-nous</h2>
+
+                <label>Nom : </label> <!-- zone de texte --> 
+                <input type="text" placeholder="Votre nom"> <!-- saisi de l'utilisateur --> 
+
+                <label>Email : </label>
+                <input type="email" placeholder="Votre email"><br>
+
+                <textarea placeholder="Ecrivez-nous un message" rows="15" cols="80"></textarea><br>
+
+                <input type="submit" value="Valider" id="submit">
+            </form>
+        </section>
+        
+        <!-- [footer] --> 
+        <footer>
+            <img id="main-logo1" src="image/main-logo1.png" alt="GaMarket"> <!-- Logo --> 
+            <h3>© GaMarket. Tous droits réservés</h3>
+            <p><a href="#">Mention légale</a></p>
+            <p><a href="#">Politique de collecte de données</a></p>
+            <p><a href="#">Conditions générales de vente</a></p>
+            <p><a href="#">remboursements</a></p>
+        </footer>
+        
+    </body>
+</html>

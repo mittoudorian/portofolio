@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3fa8f4;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        font-family: Roboto-Black, Roboto;
+        font-size: 53px;
+        font-weight: 800;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-1" x="4" width="500" height="500"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <text class="cls-3" transform="translate(145.66 118.98)"><tspan class="cls-5" x="0" y="0">A</tspan><tspan x="34.86" y="0">nnuai</tspan><tspan class="cls-4" x="167.23" y="0">r</tspan><tspan x="186.82" y="0">e</tspan></text>
+    <rect class="cls-6" x="262" y="202" width="195" height="41" rx="20.5" ry="20.5"/>
+    <rect class="cls-2" x="72" y="212" width="177" height="20" rx="9.1" ry="9.1"/>
+    <rect class="cls-6" x="263" y="291" width="195" height="41" rx="20.5" ry="20.5"/>
+    <rect class="cls-2" x="73" y="301" width="177" height="20" rx="9.1" ry="9.1"/>
+    <rect class="cls-2" x="166" y="380" width="195" height="41" rx="20.5" ry="20.5"/>
+    <rect class="cls-1" x="198" y="390" width="130" height="21" rx="10.5" ry="10.5"/>
+  </g>
+</svg>

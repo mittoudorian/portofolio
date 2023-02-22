@@ -1,0 +1,48 @@
+body
+{
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-top:200px;
+}
+
+h1
+{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
+
+
+h2
+{
+    text-align: center;
+    color: #E25E24;
+}
+
+a
+{
+    text-decoration: none;
+    color:#000;
+}
+
+div
+{
+    display: inline-flex;
+    width: 200px;
+    margin:20px;
+}
+
+#generale
+{
+    margin-left:470px;
+}
+
+img
+{
+
+    width:160px;
+}
