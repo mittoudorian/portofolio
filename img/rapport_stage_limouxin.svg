@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2 {
+        font-family: Roboto-Black, Roboto;
+        font-size: 53px;
+        font-weight: 800;
+      }
+
+      .cls-4 {
+        fill: #de0a14;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-4" width="500" height="500"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <path class="cls-1" d="M142.99,371.76c-15.36-7.3-101.54-48.24-97.07-93.87,6.27-63.99,185.74-85.23,196.27-86.4,51.54-5.73,169.21-18.81,196.27,37.33,19.8,41.09-16.95,102.63-54.4,134.4-91.12,77.31-228.77,14.38-241.07,8.53Z"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <image width="2399" height="530" transform="translate(92.24 245.73) scale(.14)" xlink:href="../../../../../../../Downloads/LE-LIMOUXIN-LOGO-XL.png"/>
+    <text class="cls-2" transform="translate(42.92 131.4)"><tspan x="0" y="0">Rappo</tspan><tspan class="cls-3" x="152.14" y="0">r</tspan><tspan x="173.52" y="0">t de stage</tspan></text>
+  </g>
+</svg>
