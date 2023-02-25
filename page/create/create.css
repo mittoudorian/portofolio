@@ -264,8 +264,8 @@ header button:hover
 .image img
 {
     width: 320px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
+    border-radius: 50px;
 }
 
 .creation
