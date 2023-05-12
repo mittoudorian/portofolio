@@ -1,0 +1,553 @@
+/*---[Importation]---*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* Police Roboto */
+
+@font-face {
+    font-family: TheBoldFont;
+    src: url('font/THEBOLDFONT.ttf');
+}
+
+@font-face {
+    font-family:Bebas;
+    src: url('font/Bebas-Regular.ttf');
+}
+
+
+
+/*---[Balise generale]---*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --text: #424242;
+    --background_color: #fefefe;
+    --background1: #F5CF55;
+    --button: #FEFFEA;
+    --color1: #f4f4f4;
+}
+
+body
+{
+    background-color: var(--background_color);
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+p
+{
+    font-weight: 300;
+}
+
+a
+{
+    text-decoration: none;
+    font-family: 'Bebas', sans-serif;
+    font-size: 1.2em;
+}
+
+h1
+{
+    font-size: 2em;
+    font-family: 'TheBoldFont', Arial, sans-serif;
+}
+
+h1 a
+{
+    color: #000;
+}
+
+/*---[Header]---*/
+header
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li
+{
+    list-style-type: none;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav li
+{
+    margin: 0px 5px;
+}
+
+nav a
+{
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+nav a:hover
+{
+    color: var(--background1);
+}
+
+/*---[Main Section]---*/
+.main_section
+{
+    background-color: var(--background1);
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main_section p
+{
+    color: var(--text);
+}
+
+.main-text
+{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text p
+{
+    font-size: 1.1em;
+}
+
+.main-text h2
+{
+    font-family: 'TheBoldFont', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+.main-text a
+{
+    background-color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.main-text a:hover
+{
+    
+    background-color: #525252;
+}
+
+.main-img img
+{
+    width: 500px;
+}
+
+/*---[Services]---*/
+.services
+{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.nos-services
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.service-logo img
+{
+    width: 100px;
+}
+
+.service
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    padding: 30px 0;
+    width: 250px;
+    height: 275px;
+    background-color:var(--color1);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    border-radius: 25px;
+}
+
+.service:hover
+{
+    transition-duration: 1s;
+    background-color:var(--text);
+    color: #fff;
+}
+
+.service-text
+{
+    padding: 25px;
+}
+
+.services-main-text h2
+{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'TheBoldFont', Arial, sans-serif;
+}
+
+.service-text h3
+{
+    font-size: 1.4em;
+    font-weight: 800;
+    font-family: 'TheBoldFont', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service-text p
+{
+    text-align: justify;
+}
+
+/*---[forfait]---*/
+.forfaits
+{
+    border-radius: 25px;
+    margin: 50px;
+    background-color: var(--color1);
+    display: flex; 
+    flex-direction: column;
+    height: 1000px;
+}
+
+.forfaits-main-text h2
+{
+
+    text-align: center;
+    font-size: 3em;
+    font-family: 'TheBoldFont', Arial, sans-serif;
+
+}
+.forfait img
+{
+    width: 16px;
+}
+
+.forfait-globale
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.forfait
+{
+    display: flex;
+    flex-direction: column;
+}
+
+ .forfaits td,  .forfaits th
+{
+    padding: 25px 40px;
+    border: solid 1px var(--color1);
+    
+}
+
+.forfaits td
+{
+    font-weight: 300;
+}
+
+.forfaits table
+{
+    border-radius: 25px;
+    background-color: #fff;
+    border-collapse: collapse;
+    display: flex;
+
+}
+
+
+.table-img
+{
+    width: 25px;
+}
+
+.forfait button
+{
+    font-family: 'Roboto', Arial, sans-serif;
+    cursor:pointer;
+    background-color: #F5CF55;
+    font-weight: 1000;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.forfait button:hover
+{
+    background-color: #dab94e;
+}
+
+.forfait-price span
+{
+    font-size: 2em;
+}
+
+/* Style pour le pop-up */
+.popup {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: none;
+}
+
+
+  
+/*---[Contact]---*/
+.contact
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contact-main-text
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'TheBoldFont', Arial, sans-serif;
+}
+
+.contact form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-1
+{
+    margin-bottom: 25px;
+}
+
+#mail
+{
+    width: 250px;
+}
+
+#submit
+{
+    background-color: #F5CF55;
+    font-weight: bold;
+    color: #333;
+}
+.contact input
+{
+    margin-left: 10px;
+    width: 125px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F4F4F4;
+    font-size: 1em;
+}
+
+/*---[Footer]---*/
+footer
+{
+    margin-top: 100px;
+    background-color: #666;
+    color: #fff;
+    align-items: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer a
+{
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #F5CF55;
+}
+
+footer a:hover
+{
+    font-family: 'Roboto', Arial, sans-serif;
+    color:#dab94e;
+}
+
+footer h2 a
+{
+    font-family: 'Bebas', Arail, sans-serif;
+    color: #fff;
+}
+/* Responsive design */
+@media screen and (max-width: 1200px)
+{
+    /*main-text*/
+    .main-text h2
+    {
+        font-size: 4em;
+    }
+
+    .main-img img
+    {
+        width: 450px;
+    }
+
+    /*Forfaits*/
+    .forfaits td,  .forfaits th
+    {
+        padding: 25px 30px;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    /*main-text*/
+    .main-text h2
+    {
+        font-size: 3.5em;
+    }
+
+    .main-img img
+    {
+        width: 400px;
+    }
+
+    /*services*/
+    .service
+    {
+        width: 200px;
+        height: 250px;
+    }
+    .service-logo img
+    {
+        width: 75px;
+    }
+
+    .service-text
+    {
+        font-size:0.9em;
+    }
+
+    /*Forfaits*/
+    .forfaits td,  .forfaits th
+    {
+        padding: 25px 5px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .main_section
+    {
+        flex-direction: column;
+    }
+
+    .main-text h2
+    {
+        font-size: 3em;
+    }
+
+    .main-img img
+    {
+        width: 300px;
+    }
+    .main_section
+    {
+        align-items: center;
+        justify-content: center;
+        height: 900px;
+    }
+
+    .main-text
+    {
+        margin-left: 20px;
+    }
+
+    .main-img 
+    {
+        margin-right: 20px;
+    }
+
+    /*services*/
+    .nos-services
+    {
+        flex-direction: column;
+    }
+    
+    /*forfaits*/
+    .forfaits td,  .forfaits th
+    {
+        padding: 6px 6px;
+    }
+
+    .forfait-price span
+    {
+        font-size: 1.1em;
+    }
+
+    .forfaits  
+    {
+        height: 800px;
+        font-size: 1em;
+    }
+
+    .forfaits table
+    {
+        border-radius: 0px;
+    }
+}
+
+
+@media screen and (max-width: 567px)
+{
+    /* --(Header)-- */
+    header
+    {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    header a
+    {
+        font-size: 1.1em;
+    }
+
+
+    /*forfaits*/
+    .forfaits td,  .forfaits th
+    {
+        padding: 1px 1px;
+    }
+
+
+    .forfaits
+    {
+        height: 600px;
+        font-size: 0.7em;
+    }
+
+    .forfait button
+    {
+        padding: 5px;
+    }
+}
