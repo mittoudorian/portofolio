@@ -401,6 +401,20 @@ footer
     align-items: center;
 }
 
+.os .donnees-desc
+{
+    display: flex;
+    justify-content: center;
+}
+.os img
+{
+    width: 150px;
+}
+
+#win
+{
+    width: 100px;
+}
 @media screen and (max-width: 576px)
 {
     footer
